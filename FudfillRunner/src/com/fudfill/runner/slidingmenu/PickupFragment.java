@@ -6,9 +6,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class HomeFragment extends Fragment {
+public class PickupFragment extends Fragment {
 
-	public HomeFragment() {
+	public PickupFragment() {
 	}
 
 	@Override

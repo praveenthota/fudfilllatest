@@ -6,17 +6,17 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class PhotosFragment extends Fragment {
+public class ItemsListFragment extends Fragment {
 
-	public PhotosFragment() {
+	public ItemsListFragment() {
 	}
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 
-		View rootView = inflater.inflate(R.layout.fragment_routemap, container,
-				false);
+		View rootView = inflater.inflate(R.layout.fragment_items,
+				container, false);
 
 		return rootView;
 	}

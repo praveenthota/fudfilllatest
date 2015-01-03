@@ -171,19 +171,19 @@ public class MainActivity extends Activity {
 		Fragment fragment = null;
 		switch (position) {
 		case 0:
-			fragment = new HomeFragment();
+			fragment = new PickupFragment();
 			break;
 		case 1:
-			fragment = new FindPeopleFragment();
+			fragment = new ItemsListFragment();
 			break;
 		case 2:
-			fragment = new PhotosFragment();
+			fragment = new RouteMapFragment();
 			break;
 		case 3:
-			fragment = new CommunityFragment();
+			fragment = new RunnerMapFragment();
 			break;
 		case 4:
-			fragment = new PagesFragment();
+			fragment = new EscalateFragment();
 			break;
 		case 5:
 			fragment = new WhatsHotFragment();
