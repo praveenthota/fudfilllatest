@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="@android:dimen/notification_large_icon_width"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:text="1"
+        android:id="@+id/customer_waypoint_order"
+        android:height="@android:dimen/app_icon_size" />
+    <TextView
+        android:layout_width="@android:dimen/notification_large_icon_width"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:text="customerName"
+        android:id="@+id/customer_waypoint_name"
+        android:layout_toRightOf="@+id/customer_waypoint_order"
+        android:layout_toEndOf="@+id/customer_waypoint_order"
+        android:height="@android:dimen/app_icon_size" />
+
+    <TextView
+        android:layout_width="@android:dimen/notification_large_icon_width"
+        android:layout_height="@android:dimen/notification_large_icon_width"
+        android:text="(price)"
+        android:id="@+id/customer_waypoint_price"
+        android:layout_toRightOf="@+id/customer_waypoint_name"
+        android:layout_toEndOf="@+id/customer_waypoint_name"
+        android:height="@android:dimen/app_icon_size"
+        android:maxWidth="@android:dimen/app_icon_size" />
+
+</RelativeLayout>
