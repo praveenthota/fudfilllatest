@@ -1,4 +1,4 @@
-package com.fudfill.runner.slidingmenu.model;
+package com.fudfill.runner.slidingmenu.adapter;
 import java.io.Serializable;
 /**
  * Created by Sowmya on 1/4/2015.

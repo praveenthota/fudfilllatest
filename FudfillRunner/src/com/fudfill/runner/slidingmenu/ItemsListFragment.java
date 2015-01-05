@@ -7,9 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ExpandableListView;
 
-import com.fudfill.runner.slidingmenu.model.CustomerOrderDetails;
-import com.fudfill.runner.slidingmenu.model.CustomerOrderListAdapter;
-import com.fudfill.runner.slidingmenu.model.CustomerWaypointDetails;
+import com.fudfill.runner.slidingmenu.adapter.CustomerOrderDetails;
+import com.fudfill.runner.slidingmenu.adapter.CustomerOrderListAdapter;
+import com.fudfill.runner.slidingmenu.adapter.CustomerWaypointDetails;
 
 import java.util.ArrayList;
 import java.util.List;

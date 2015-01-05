@@ -1,21 +1,16 @@
-package com.fudfill.runner.slidingmenu.model;
+package com.fudfill.runner.slidingmenu.adapter;
 
 import android.content.Context;
-import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.ExpandableListAdapter;
 import android.widget.TextView;
 import java.util.List;
 
-import com.fudfill.runner.slidingmenu.ItemsListFragment;
 import com.fudfill.runner.slidingmenu.R;
-
-import org.w3c.dom.Text;
 
 /**
  * Created by Sowmya on 1/4/2015.
